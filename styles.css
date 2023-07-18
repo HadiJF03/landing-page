@@ -1,0 +1,26 @@
+ul{
+
+    list-style-type: none;
+    display: flex;
+    gap: 13px;
+    margin-right: 10%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+.
