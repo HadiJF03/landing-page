@@ -12,7 +12,7 @@ body{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 13px;
+    gap: 90px;
 }
 a{
 
@@ -61,7 +61,7 @@ a{
     align-items: center;
 }
 .hero .signup{
-    border-radius: 12%;
+    border-radius: 15px;
     border-style: none;
     color: white;
     background-color: #3882f6;
@@ -72,7 +72,7 @@ a{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin-bottom: 20px;
+    margin-top: 50px;
 }
 .box{
     background-color: white;
@@ -81,10 +81,11 @@ a{
     border-color: #3882f6;
     width: 150px;
     height: 150px;
-    border-radius: 15%;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .info{
+    padding: 50px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -94,5 +95,51 @@ a{
 .pair{
     max-width: 150px;
     text-align: center;
+    
+}
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.placeholder{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.credit{
+    text-align: right;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 20px 20%;
+    max-height: 40px;
+    padding: 50px;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
+}
+.first{
+    font-size: 30px;
+
+}
+.banner .signup{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    font-size: medium
+
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
 
